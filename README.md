@@ -4,9 +4,9 @@ I have often found myself needing to interact with RESTful services but not
 wanting to install a large dependency set to use some more advanced library.
 
 The `requests` library is very commonly available (including in CentOS 6/7) but
-I was constantly reating things.  Create session, set headers, set ssl settings,
-call `session.get(urljoin())` and so on.  `requests.Session` does _almost_
-everything I would want.  So I subclassed it to do the rest (get it? REST).
+I was constantly repeating things.  [Create session, set headers, set ssl settings,
+call `session.get(urljoin())` and so on.]  `requests.Session` does _almost_
+everything I would want.  So I subclassed it to do the _rest_ (get it? REST).
 
 ## Goals
 
