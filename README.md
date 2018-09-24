@@ -62,7 +62,7 @@ Other APIs might have ways of generating some kind of token for subsequent reque
 investigate that before simply using `auth=()`.
 
 **Note:** Keep in mind too that depending on the app or server, sending `Authorization`
-headers could cause poort response times. Authentication calls to things like LDAP can be
+headers could cause poor response times. Authentication calls to things like LDAP can be
 expensive, relatively speaking. 
 
 ```python
